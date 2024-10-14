@@ -5,7 +5,7 @@ public class New {
       Scanner sc= new Scanner(System.in);
 
       int i=sc.nextInt();
-
+     sc.close();
       for(  i=0; i<=4; i++){
       for(int j=0; j<=i; j++){
           System.out.print ("*");
@@ -19,6 +19,6 @@ public class New {
      }
         System.out.println();
       }
-   
+  
     }
 }
