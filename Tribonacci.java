@@ -11,13 +11,13 @@ public class Tribonacci {
         int ft = 0 ;
         int st = 1 ;
         int tt = 1 ;
-        for (int i = 3; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             int nextNum = ft + st + tt ;    
             ft = st ;
             st = tt ;
             tt = nextNum ;
         }
-        return tt ;
+        return ft ;
     }
     public static void main(String[] args) {
         

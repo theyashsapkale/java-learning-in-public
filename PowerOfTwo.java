@@ -1,5 +1,7 @@
 public class PowerOfTwo {
 
+    // 231 leetcode problem sloving in java 
+    
     static boolean PowerOfTWO(int n ) {
       if ( n < 1){
         return false;
